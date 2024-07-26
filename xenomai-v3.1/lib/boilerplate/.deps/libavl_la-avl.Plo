@@ -1,0 +1,121 @@
+libavl_la-avl.lo: avl.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ ../../include/boilerplate/avl.h ../../include/boilerplate/avl-inner.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/7/include/stddef.h \
+ /home/peta19/petalinux/v2019.2/xenomai-bsp/kernel/xenomai-v3.1/include/cobalt/stdio.h \
+ /usr/arm-linux-gnueabihf/include/stdio.h \
+ /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+ /usr/arm-linux-gnueabihf/include/bits/libio.h \
+ /usr/arm-linux-gnueabihf/include/bits/_G_config.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/7/include/stdarg.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+ /usr/arm-linux-gnueabihf/include/bits/sys_errlist.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdio.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdio2.h \
+ ../../include/xeno_config.h ../../include/cobalt/wrappers.h \
+ ../../include/boilerplate/compiler.h \
+ /usr/arm-linux-gnueabihf/include/errno.h \
+ /usr/arm-linux-gnueabihf/include/bits/errno.h \
+ /usr/arm-linux-gnueabihf/include/linux/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/errno-base.h \
+ /usr/arm-linux-gnueabihf/include/memory.h \
+ /usr/arm-linux-gnueabihf/include/string.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+ /usr/arm-linux-gnueabihf/include/strings.h \
+ /usr/arm-linux-gnueabihf/include/bits/strings_fortified.h \
+ /usr/arm-linux-gnueabihf/include/bits/string_fortified.h
+
+/usr/arm-linux-gnueabihf/include/stdc-predef.h:
+
+../../include/boilerplate/avl.h:
+
+../../include/boilerplate/avl-inner.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/7/include/stddef.h:
+
+/home/peta19/petalinux/v2019.2/xenomai-bsp/kernel/xenomai-v3.1/include/cobalt/stdio.h:
+
+/usr/arm-linux-gnueabihf/include/stdio.h:
+
+/usr/arm-linux-gnueabihf/include/bits/libc-header-start.h:
+
+/usr/arm-linux-gnueabihf/include/features.h:
+
+/usr/arm-linux-gnueabihf/include/sys/cdefs.h:
+
+/usr/arm-linux-gnueabihf/include/bits/wordsize.h:
+
+/usr/arm-linux-gnueabihf/include/bits/long-double.h:
+
+/usr/arm-linux-gnueabihf/include/gnu/stubs.h:
+
+/usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types.h:
+
+/usr/arm-linux-gnueabihf/include/bits/typesizes.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__FILE.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/FILE.h:
+
+/usr/arm-linux-gnueabihf/include/bits/libio.h:
+
+/usr/arm-linux-gnueabihf/include/bits/_G_config.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/7/include/stdarg.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdio_lim.h:
+
+/usr/arm-linux-gnueabihf/include/bits/sys_errlist.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdio.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdio2.h:
+
+../../include/xeno_config.h:
+
+../../include/cobalt/wrappers.h:
+
+../../include/boilerplate/compiler.h:
+
+/usr/arm-linux-gnueabihf/include/errno.h:
+
+/usr/arm-linux-gnueabihf/include/bits/errno.h:
+
+/usr/arm-linux-gnueabihf/include/linux/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/errno-base.h:
+
+/usr/arm-linux-gnueabihf/include/memory.h:
+
+/usr/arm-linux-gnueabihf/include/string.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/locale_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h:
+
+/usr/arm-linux-gnueabihf/include/strings.h:
+
+/usr/arm-linux-gnueabihf/include/bits/strings_fortified.h:
+
+/usr/arm-linux-gnueabihf/include/bits/string_fortified.h:

@@ -1,0 +1,146 @@
+libcobalt_la-trace.lo: trace.c \
+ /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ /usr/arm-linux-gnueabihf/include/errno.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /usr/arm-linux-gnueabihf/include/bits/errno.h \
+ /usr/arm-linux-gnueabihf/include/linux/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/errno.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/errno-base.h \
+ /home/peta19/petalinux/v2019.2/xenomai-bsp/kernel/xenomai-v3.1/include/cobalt/stdio.h \
+ /usr/arm-linux-gnueabihf/include/stdio.h \
+ /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/7/include/stddef.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+ /usr/arm-linux-gnueabihf/include/bits/libio.h \
+ /usr/arm-linux-gnueabihf/include/bits/_G_config.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/7/include/stdarg.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+ /usr/arm-linux-gnueabihf/include/bits/sys_errlist.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdio.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdio2.h \
+ ../../include/xeno_config.h ../../include/cobalt/wrappers.h \
+ ../../include/boilerplate/compiler.h \
+ ../../include/cobalt/uapi/kernel/trace.h ../../include/cobalt/trace.h \
+ /home/peta19/petalinux/v2019.2/xenomai-bsp/kernel/xenomai-v3.1/lib/cobalt/arch/arm/include/asm/xenomai/syscall.h \
+ ../../include/cobalt/uapi/syscall.h \
+ ../../include/cobalt/uapi/asm-generic/syscall.h \
+ /usr/arm-linux-gnueabihf/include/linux/types.h \
+ /usr/arm-linux-gnueabihf/include/asm/types.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/int-ll64.h \
+ /usr/arm-linux-gnueabihf/include/asm/bitsperlong.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/bitsperlong.h \
+ /usr/arm-linux-gnueabihf/include/linux/posix_types.h \
+ /usr/arm-linux-gnueabihf/include/linux/stddef.h \
+ /usr/arm-linux-gnueabihf/include/asm/posix_types.h \
+ /usr/arm-linux-gnueabihf/include/asm-generic/posix_types.h \
+ /home/peta19/petalinux/v2019.2/xenomai-bsp/kernel/xenomai-v3.1/kernel/cobalt/arch/arm/include/asm/xenomai/uapi/features.h \
+ ../../include/cobalt/uapi/asm-generic/features.h \
+ /home/peta19/petalinux/v2019.2/xenomai-bsp/kernel/xenomai-v3.1/kernel/cobalt/arch/arm/include/asm/xenomai/uapi/syscall.h
+
+/usr/arm-linux-gnueabihf/include/stdc-predef.h:
+
+/usr/arm-linux-gnueabihf/include/errno.h:
+
+/usr/arm-linux-gnueabihf/include/features.h:
+
+/usr/arm-linux-gnueabihf/include/sys/cdefs.h:
+
+/usr/arm-linux-gnueabihf/include/bits/wordsize.h:
+
+/usr/arm-linux-gnueabihf/include/bits/long-double.h:
+
+/usr/arm-linux-gnueabihf/include/gnu/stubs.h:
+
+/usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h:
+
+/usr/arm-linux-gnueabihf/include/bits/errno.h:
+
+/usr/arm-linux-gnueabihf/include/linux/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/errno.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/errno-base.h:
+
+/home/peta19/petalinux/v2019.2/xenomai-bsp/kernel/xenomai-v3.1/include/cobalt/stdio.h:
+
+/usr/arm-linux-gnueabihf/include/stdio.h:
+
+/usr/arm-linux-gnueabihf/include/bits/libc-header-start.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/7/include/stddef.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types.h:
+
+/usr/arm-linux-gnueabihf/include/bits/typesizes.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__FILE.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/FILE.h:
+
+/usr/arm-linux-gnueabihf/include/bits/libio.h:
+
+/usr/arm-linux-gnueabihf/include/bits/_G_config.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/7/include/stdarg.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdio_lim.h:
+
+/usr/arm-linux-gnueabihf/include/bits/sys_errlist.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdio.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdio2.h:
+
+../../include/xeno_config.h:
+
+../../include/cobalt/wrappers.h:
+
+../../include/boilerplate/compiler.h:
+
+../../include/cobalt/uapi/kernel/trace.h:
+
+../../include/cobalt/trace.h:
+
+/home/peta19/petalinux/v2019.2/xenomai-bsp/kernel/xenomai-v3.1/lib/cobalt/arch/arm/include/asm/xenomai/syscall.h:
+
+../../include/cobalt/uapi/syscall.h:
+
+../../include/cobalt/uapi/asm-generic/syscall.h:
+
+/usr/arm-linux-gnueabihf/include/linux/types.h:
+
+/usr/arm-linux-gnueabihf/include/asm/types.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/int-ll64.h:
+
+/usr/arm-linux-gnueabihf/include/asm/bitsperlong.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/bitsperlong.h:
+
+/usr/arm-linux-gnueabihf/include/linux/posix_types.h:
+
+/usr/arm-linux-gnueabihf/include/linux/stddef.h:
+
+/usr/arm-linux-gnueabihf/include/asm/posix_types.h:
+
+/usr/arm-linux-gnueabihf/include/asm-generic/posix_types.h:
+
+/home/peta19/petalinux/v2019.2/xenomai-bsp/kernel/xenomai-v3.1/kernel/cobalt/arch/arm/include/asm/xenomai/uapi/features.h:
+
+../../include/cobalt/uapi/asm-generic/features.h:
+
+/home/peta19/petalinux/v2019.2/xenomai-bsp/kernel/xenomai-v3.1/kernel/cobalt/arch/arm/include/asm/xenomai/uapi/syscall.h:
